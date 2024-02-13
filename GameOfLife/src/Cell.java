@@ -5,11 +5,7 @@ public class Cell {
 
     public Cell(Boolean a) {
         alive = a;
-nextAlive=true;
-
-
-
-
+        nextAlive=true;
 
     }
 

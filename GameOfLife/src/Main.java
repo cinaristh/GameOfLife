@@ -183,8 +183,6 @@ public class Main extends JFrame {
     }
     private void startButtonClick(){
         t.start();
-        //update();
-        //canvas.repaint;
     }
 
     private void stopButtonClick(){

@@ -34,21 +34,7 @@ public class Main extends JFrame {
         this.add(new LowerPanel(), BorderLayout.SOUTH);
         this.setLocationRelativeTo(null);
 
-/*
-        startButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                t.start();
-            }
-        });
 
-        stopButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                t.stop();
-            }
-        });
-*/
         t = new Timer(1000, e -> {
             update();
             canvas.repaint();
